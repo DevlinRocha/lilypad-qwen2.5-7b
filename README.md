@@ -9,7 +9,7 @@ Run [Qwen 2.5 7B](https://ollama.com/library/qwen2.5) on Lilypad Network.
 ```sh
 export WEB3_PRIVATE_KEY=WEB3_PRIVATE_KEY
 
-lilypad run github.com/DevlinRocha/lilypad-qwen2.5-7b:e1db633a0168f93865c5d8ebea3ee1bafec44e49 \
+lilypad run github.com/DevlinRocha/lilypad-qwen2.5-7b:7ec208cf776e2d3c21db23ad6f9aab34899ff3fc \
 -i request="$(echo -n '{
   "model": "MODEL_NAME:MODEL_VERSION",
   "messages": [{
